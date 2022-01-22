@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*setting the font and the font color*/
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #4E5340;
+}
+
+/*placing the nav bar to the top-right of the screen*/
+#nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #B7D1DA;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/*giving space to nav links and removing bullets*/
+nav>ul>li{
+    padding-right: 50px;
+    list-style: none;
+}
+
+/*centering welcome sign*/
+#welcome{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px 70px;
+    padding-top: 120px;
+}
+
+/*welcome sign decoration*/
+#header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0 30px;
+    width: 300px;
+    font-size: 20px;
+    background-color: #B7D1DA;
+}
+
+/*welcome sign photo*/
+#ali{
+    width: 300px;
+    height: 400px;
+}
+
+/*centering and styleing main content*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*center contanct with about and contact containers*/
+.about-contact{
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    text-align: center;
+    padding: 100px 0 10px 0;
+}
+
+/*styling body headings*/
+.main-h2{
+    color: #F79256;
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+/*body list styling*/
+.main-list{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style-position: inside;
+    padding-top: 10px;
+}
+
+/*contact photo*/
+#ithaca{
+    width: 85%;
+}
+
+/*centering footer and styling*/
+footer{
+    text-align: center;
+    height: 60px;
+    background-color: #B7D1DA;
+    padding-top: 2%;
+    margin-top: 30px;
+}
+
+hr{
+    color: #4E5340;
+    width: 600px;
+    margin-top: 70px;
+}
+
+/*styling links*/
+a:link {
+    color: #4E5340;
+  }
+a:visited {
+    color: #5D2A42;
+}
+a:hover {
+    color: #F79256;
+}
+a:active {
+    color: #FBD1A2
+}
