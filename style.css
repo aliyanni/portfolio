@@ -6,7 +6,7 @@
 
 /*setting the font and the font color*/
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #4e5340;
 }
 
@@ -73,7 +73,7 @@ a:active {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-align: center;
   margin: 0;
   padding: 0 30px;
@@ -102,6 +102,9 @@ main {
 .project-photos {
   width: 300px;
   height: 400px;
+  padding: 5px;
+  margin: 5px;
+  border: solid black 1px;
 }
 
 /*center contanct with about and contact containers*/
@@ -111,6 +114,9 @@ main {
   max-width: 600px;
   text-align: center;
   padding: 100px 0 10px 0;
+}
+
+.tech-skills {
 }
 
 /*styling body headings*/
@@ -132,7 +138,6 @@ main {
   list-style-position: inside;
   padding-top: 10px;
 }
-
 
 /*centering footer and styling*/
 footer {
